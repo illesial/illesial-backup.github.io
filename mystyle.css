@@ -1100,3 +1100,68 @@ li a:hover {
 li a:hover {
   background-color: #111;
 }
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        height: 325px;
+    }
+    .sidebar.sidebar-article {
+        height: auto;
+        border-bottom: 1px #dededc solid;
+        padding-bottom: 35px;
+    }
+
+    .content {
+        padding: 1em 1.5em 0;
+        font-size: 85%;
+    }
+
+    .cover-img {
+        background-position: 0;
+        background-size: cover;
+    }
+
+    .avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    .article-avatar {
+        float: none
+    }
+
+    .about-author {
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .cover-body {
+        padding-bottom: 5%;
+        padding-top: 0;
+    }
+
+    .header,
+    .header-article {
+        text-align: center;
+        top: auto;
+        position: static;
+    }
+
+    hr {
+        border: 1px solid #f2f2f0;
+        width: inherit;
+        margin: 25px auto;
+    }
+
+    #layout {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .cover-img {
+        background-position: 0;
+    }
+}
