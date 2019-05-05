@@ -1110,13 +1110,15 @@ li a:hover {
         width: 100%;
         position: relative;
         margin: 0;
-        height: 325px;
+        height: 265px;
+		overflow: hidden;
     }
 	ul.navbar {
         width: 100%;
         position: relative;
         margin: 0;
-        height: 325px;
+        height: 265px;
+		overflow: hidden;
     }
     .sidebar {
         width: 100%;
@@ -1132,6 +1134,7 @@ li a:hover {
 
     .content {
         padding: 0em;
+		margin-top: 1.5em;
         font-size: 85%;
 		color: #222222;
     }
