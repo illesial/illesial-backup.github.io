@@ -5,7 +5,7 @@
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <nav class = "navbar">
-<h1 style="margin-top: 35px; margin-left: 15px;">Osman Chaudhary
+<h1 style="padding:20px;margin-top: 1em;">Osman Chaudhary
 </h1>
 <ul class="navbar">
   <li><a href="index.html">About me</a></li>
@@ -14,18 +14,18 @@
   <li><a href="contact.html">Contact me</a></li>
 </ul>
 </nav>
-<div class="clearfix" class="col-2 content"><img class="col-2 floatright" src="peter.jpg" style="width:170px;height:170px;margin-left:15px; margin-top: 10em;">
-<p style="margin-top:10em;"><h2 class="col-2 content">Projects and Research</h2>
+<div class = "content"><img src="peter.jpg" style="width:170px;height:auto; margin-left: 1em; margin-top: 2em; float:right;">
+<p style="margin-top:3em;"><h2 class="content">Projects and Research</h2>
 </p>
-<h2 class="col-2 content">Clustering the Iris dataset</h2>
+<h2 class="content">Clustering the Iris dataset</h2>
 <p>The iris dataset is well known and consists of the widths and lengths of the petals of many flowers in the iris family. Displayed here 
 is a plot of the widths and lengths of many of these flowers, clustered using the K-nearest neighbors clustering method. We can see that there are three types of iris flowers, with type delineated by the boundaries of when the color changes. This boundary is called a decision boundary.</p>
-<img class="col-2 content" src="dec_bdry.png" style="margin-left:30%;">
-<h2 class="col-2 content">Which neighorhoods are the most paranoid?</h2>
+<img class="content" src="dec_bdry.png" style="width:50%; height:auto; margin-left:30%;">
+<h2 class="content">Which neighorhoods are the most paranoid?</h2>
 <p>The <a href="">911 Police Calls for Service</a> dataset is available on Baltimore's open data page and consists of millions of 911 calls. Data included are call reason, neighborhood, and latitude / longitude coordinates. The following is a map of Baltimore neighborhoods, colored in by calls flagged for "Common Assault".</p>
-<img class="col-2 content" src="assault.png" style="width:50%; height:auto; margin-left:30%;">
+<img class="content" src="assault.png" style="width:50%; height:auto; margin-left:30%;">
 <p>Many reasons for calls are listed, but among the top reasons listed, in addition to "Common Assault", are Burglary and Larceny. These are examples of crimes, while serious, are not as bad as say, a homicide.</p>
 <p>Another interesting call reason among the top is "Suspicious Person". I thought it would be interesting to overlay calls for the above three crimes, and calls for suspicious person. Essentially, among those neighborhoods where crimes are reported, which of these neighborhoods tend to produce calls to the police *before* a crime has happened? The result is the following plot, which shows: among the top 20 neighborhoods by total calls for Assault, Burglary, or Larceny, which have a high ratio of calls for suspicious person to total calls for crimes? In deep red are neighborhoods which have a lot of calls for crimes, but not a lot of calls for a suspicious person. In deep blue are neighborhoods which have a lot of calls for suspicious person, relative to how many calls for crimes they have. Essentially, the blue neighborhoods are a lot more paranoid than the red neighborhoods. Notice that the most blue neighborhood is Canton</p>
-<img class="col-2 content" src="bmore_susp_ratio.png" style="width:50%; height:auto; margin-left:30%;">
+<img class="content" src="bmore_susp_ratio.png" style="width:50%; height:auto; margin-left:30%;">
 </div>
 </html>
