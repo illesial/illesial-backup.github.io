@@ -1012,7 +1012,7 @@ margin:0;
 padding:0;
 }
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto Mono', monospace;
   color: #ffffff
 }
@@ -1054,15 +1054,15 @@ div {
   border: 0px;
   padding: 1em;
   color: #222222;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 13%;
+  margin-right: 15%;
 }
 p {
   margin: 0px;
   border: 0px;
   padding: 1em;
   color: #222222;
-  margin-left: 20%;
+  margin-left: 13%;
 }
 .floatright {
   float: right;
@@ -1089,7 +1089,7 @@ ul.navbar {
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 ul {
-  margin-left: 20%;
+  margin-left: 13%;
 }
 li a{
   display: block;
