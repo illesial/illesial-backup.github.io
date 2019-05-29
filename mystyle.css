@@ -1108,6 +1108,15 @@ li a:hover {
   background-color: #111;
 }
 @media (max-width: 767px) {
+	body {
+	  /*background-color: #bbbbbb;*/
+	  background: linear-gradient(120deg, #bbbbbb 50%, #c66db7 110%);
+	  /*background: linear-gradient(120deg, #bbbbbb 50%, #c66db7 110%);
+	  #bbbbbb #c66db7*/
+	  animation-name: example;
+	  animation-duration: 16s;
+	  animation-iteration-count: infinite;
+	}
 	 .navbar {
         width: 100%;
         position: relative;
@@ -1148,6 +1157,9 @@ li a:hover {
 	  border: 0px;
 	  padding: 1em;
 	  color: #222222;
+	}
+	img {
+	  border-radius: 3px;
 	}
 	.floatright {
 	  float: right;
