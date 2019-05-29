@@ -1097,7 +1097,12 @@ li a{
   padding: 8px 16px;
   text-decoration: none;
 }
-
+li a.content{
+  display: block;
+  color: #222222;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 /* Change the link color on hover */
 li a:hover {
   background-color: #f1f1f1;
@@ -1107,7 +1112,7 @@ li a:hover {
 li a:hover {
   background-color: #111;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
 	body {
 	  /*background-color: #bbbbbb;*/
 	  background: linear-gradient(120deg, #bbbbbb 50%, #c66db7 110%);
