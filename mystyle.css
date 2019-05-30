@@ -2180,6 +2180,15 @@ li a.content{
 	img {
 	  border-radius: 3px;
 	}
+	a {
+	  color: #161a47;
+	  text-decoration: none;
+	  font-weight: 550;
+	}
+	a:hover {
+	  background-color: #161a47;
+	  color: #bbbbbb;
+	}
 	.floatright {
 	  float: right;
 	}
